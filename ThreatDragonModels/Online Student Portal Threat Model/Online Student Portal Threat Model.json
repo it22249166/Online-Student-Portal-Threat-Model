@@ -21,17 +21,17 @@
         "cells": [
           {
             "position": {
-              "x": 242,
-              "y": 467
+              "x": 221.99999999999977,
+              "y": 40.00000000000006
             },
             "size": {
-              "width": 128,
-              "height": 60
+              "width": 670,
+              "height": 550
             },
             "visible": true,
             "shape": "trust-boundary-box",
+            "zIndex": -1,
             "id": "c0fe7ca7-1073-4ad5-97b7-17c8c9b777f7",
-            "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Trust Boundary",
@@ -39,64 +39,24 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
-              "containedElements": []
-            }
-          },
-          {
-            "position": {
-              "x": 430,
-              "y": 150
+              "containedElements": [
+                "a658a5d2-6973-49ee-a873-1e5ba078ed88",
+                "140010c5-8e4b-4178-b015-eb2e9231c9ec",
+                "2ea49689-9092-48e8-a0de-e4e40113fb71"
+              ]
             },
-            "size": {
-              "width": 128,
-              "height": 60
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "faf134b7-999a-46c5-8092-07ad2ac4a28a",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": -1,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "83ba0024-764a-4619-9a2d-7e1ee58cbdfa",
-            "source": {
-              "x": 178,
-              "y": 40
-            },
-            "target": {
-              "x": 278,
-              "y": 140
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
             "position": {
               "x": 50,
-              "y": 40
+              "y": 50
             },
             "size": {
               "width": 112.5,
@@ -114,6 +74,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -197,7 +158,6 @@
               ]
             },
             "id": "8fc3f387-3a84-41cc-86cd-9e3ee366512c",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Student\n",
@@ -212,8 +172,8 @@
           },
           {
             "position": {
-              "x": 52.5,
-              "y": 180
+              "x": 51.25,
+              "y": 270
             },
             "size": {
               "width": 110,
@@ -231,6 +191,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -314,7 +275,6 @@
               ]
             },
             "id": "6d715c89-bec3-4e46-becd-c5c5c52d1546",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Lecturer",
@@ -330,7 +290,7 @@
           {
             "position": {
               "x": 50,
-              "y": 315
+              "y": 507
             },
             "size": {
               "width": 112.5,
@@ -348,6 +308,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -431,7 +392,6 @@
               ]
             },
             "id": "4b2fe6a6-fc50-4139-a4c5-f9b2a8c103aa",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Administrator\n",
@@ -446,12 +406,12 @@
           },
           {
             "position": {
-              "x": 200,
-              "y": 70
+              "x": 349.9999999999999,
+              "y": 110
             },
             "size": {
-              "width": 190,
-              "height": 120
+              "width": 210,
+              "height": 150
             },
             "attrs": {
               "text": {
@@ -465,6 +425,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -548,7 +509,6 @@
               ]
             },
             "id": "a658a5d2-6973-49ee-a873-1e5ba078ed88",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -566,8 +526,8 @@
           },
           {
             "position": {
-              "x": 220,
-              "y": 210
+              "x": 289.9999999999999,
+              "y": 340
             },
             "size": {
               "width": 330,
@@ -585,6 +545,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -668,7 +629,6 @@
               ]
             },
             "id": "140010c5-8e4b-4178-b015-eb2e9231c9ec",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Authentication Service",
@@ -686,8 +646,8 @@
           },
           {
             "position": {
-              "x": 678,
-              "y": 180
+              "x": 700,
+              "y": 290
             },
             "size": {
               "width": 120,
@@ -708,6 +668,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -791,7 +752,6 @@
               ]
             },
             "id": "2ea49689-9092-48e8-a0de-e4e40113fb71",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
               "name": "Student portal database",
@@ -806,52 +766,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "5307879c-b7d3-4f59-96e1-ae087680b1cc",
-            "source": {
-              "x": 135,
-              "y": 100
-            },
-            "target": {
-              "cell": "a658a5d2-6973-49ee-a873-1e5ba078ed88",
-              "port": "a118782a-1cd0-4407-ac1e-27ba015b40cd"
             }
           }
         ]
