@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-08-03",
+  "summary": {
+    "title": "Online Student Portal Threat Model",
+    "owner": "Malith Bandara",
+    "description": "This threat model represents an Internet-accessible university student portal that allows students to view results, lecturers to manage marks and administrators to manage user accounts.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 1,
+    "reviewer": "Malith Bandara",
+    "threatTop": 0
+  }
+}
