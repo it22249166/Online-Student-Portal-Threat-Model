@@ -45,7 +45,7 @@
                 "ebf24814-990e-4252-b7e5-cf748c075edd",
                 "53883175-508b-4345-bd0e-40c2e24a3fe9",
                 "edf45c34-075c-47e0-8762-4b154c3d3c17",
-                "708fea28-b5af-4896-86e2-426c318270ec"
+                "322ceea3-3a01-4cbc-a598-705b9b292964"
               ],
               "containedElements": [
                 "a658a5d2-6973-49ee-a873-1e5ba078ed88",
@@ -1243,60 +1243,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "User account management",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "c0fe7ca7-1073-4ad5-97b7-17c8c9b777f7"
-              ]
-            },
-            "labels": [
-              "User account management"
-            ],
-            "id": "708fea28-b5af-4896-86e2-426c318270ec",
-            "source": {
-              "cell": "a658a5d2-6973-49ee-a873-1e5ba078ed88",
-              "port": "a118782a-1cd0-4407-ac1e-27ba015b40cd"
-            },
-            "target": {
-              "cell": "4b2fe6a6-fc50-4139-a4c5-f9b2a8c103aa",
-              "port": "be2299c2-c10b-454a-98cf-02daacbcfee3"
-            },
-            "vertices": [
-              {
-                "x": 370,
-                "y": 260
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Authentication request",
               "description": "",
               "outOfScope": false,
@@ -1326,6 +1272,60 @@
               {
                 "x": 540,
                 "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User account management",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "c0fe7ca7-1073-4ad5-97b7-17c8c9b777f7"
+              ]
+            },
+            "labels": [
+              "User account management"
+            ],
+            "id": "322ceea3-3a01-4cbc-a598-705b9b292964",
+            "source": {
+              "cell": "4b2fe6a6-fc50-4139-a4c5-f9b2a8c103aa",
+              "port": "be2299c2-c10b-454a-98cf-02daacbcfee3"
+            },
+            "target": {
+              "cell": "a658a5d2-6973-49ee-a873-1e5ba078ed88",
+              "port": "a118782a-1cd0-4407-ac1e-27ba015b40cd"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 260
               }
             ]
           }
