@@ -998,12 +998,12 @@
             ],
             "id": "e3428aac-ecb0-4bb1-9b74-3da0ca114314",
             "source": {
-              "cell": "a658a5d2-6973-49ee-a873-1e5ba078ed88",
-              "port": "70e8e7e1-4010-4bff-947a-bb9c90867a1b"
-            },
-            "target": {
               "cell": "6d715c89-bec3-4e46-becd-c5c5c52d1546",
               "port": "be2299c2-c10b-454a-98cf-02daacbcfee3"
+            },
+            "target": {
+              "cell": "a658a5d2-6973-49ee-a873-1e5ba078ed88",
+              "port": "70e8e7e1-4010-4bff-947a-bb9c90867a1b"
             },
             "vertices": [
               {
